@@ -7,7 +7,7 @@
 3. 디스크 파티션 분할 후 듀얼 부팅
 
 ## 설치 완료 사진
-- sudo apt update, mkdir test, ls 명령어 사용 화면이다
+- WSL2를 사용하여 Ubuntu를 설치하고 sudo apt update, mkdir test, ls 명령어 사용 화면이다
 ![WSL2 사용 Ubuntu 화면](https://github.com/user-attachments/assets/5435b528-4d36-44b2-bb45-a4dc2a184486)
 
 ## 참고 
