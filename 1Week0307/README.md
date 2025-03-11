@@ -6,6 +6,9 @@
 2. VM(Virtual Machine) 사용
 3. 파티션 분할 후 듀얼 부팅
 
+## 설치 완료 사진
+![Ubuntu 설치 후 dir생성 및 ls 명령어 사용](https://github.com/user-attachments/assets/1cb47199-0e91-46ca-94a3-894feab83571)
+
 ## 참고 
 - [[Linux] WSL(Windows Subsystem for Linux) 설치 및 세팅(Ubuntu)](https://backendcode.tistory.com/255)
 
