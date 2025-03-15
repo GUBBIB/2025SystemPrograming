@@ -9,7 +9,15 @@
 ### 옵션 -m, -p, -v, -Z 
 - ``-m(--mode)`` : **퍼미션(권한)** 설정 옵션
 - ``-p(--parents)`` : **상위 디렉토리** 가 없을 경우 **자동**으로 생성<br>
-``-v(--)`` : 
+- ``-v(--verbose)`` : 디렉토리 생성시 마다 메시지 출력
+
+``
+\$ mkdir -p -v  f/s1/s2/s3
+mkdir: created directory ‘f’
+mkdir: created directory ‘f/s1’
+mkdir: created directory ‘f/s1/s2’
+mkdir: created directory ‘f/s1/s2/s3’​
+``
 
 ![디렉토리 및 파일 생성 후 tree 명령어](https://github.com/user-attachments/assets/f355e5ce-f80e-4798-8798-ccdb7cebd286)
 
