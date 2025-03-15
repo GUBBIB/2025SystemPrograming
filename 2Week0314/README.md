@@ -19,8 +19,8 @@ mkdir: created directory 'f/s1/s2'
 mkdir: created directory 'f/s1/s2/s3'
 ```
 - ``-Z`` : **selinux** 설정 옵션
-
-        selinux란 커널을 보호하기 위한 도구이며 커널에 내장된 보안 모듈이다.
+    
+    ``selinux``란 **커널** 을 **보호**하기 위한 도구이며 커널에 **내장된 보안 모듈**이다.
 - ``{}`` : 한번에 여러개의 디렉토리 생성
 ```
 mkdir a/{1, 2, 3} #사용 후 tree 사용시
