@@ -21,7 +21,13 @@ mkdir: created directory 'f/s1/s2/s3'
 - ``-Z`` : **selinux** 설정 옵션
 - ``{}`` : 한번에 여러개의 디렉토리 생성
 ```
-mkdir a/{1, 2, 3}
+mkdir a/{1, 2, 3} #사용 후 tree 사용시
+tree
+
+a
+ㄴ 1
+ㄴ 2
+ㄴ 3
 
 ```
 
