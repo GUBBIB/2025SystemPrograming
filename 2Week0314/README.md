@@ -5,6 +5,11 @@
 ``sudo apt install tree`` 명령어로 설치가 가능하며 ``tree`` 명령어로 폴더 구조를 볼 수 있다.
 
 ## mkdir 명령어
+``mkdir`` : 디렉토리를 만들 때 사용하는 명령어
+### -m, -p, -v, -Z 옵션
 
 
-![mkdir 사용](https://github.com/user-attachments/assets/f355e5ce-f80e-4798-8798-ccdb7cebd286)
+![디렉토리 및 파일 생성 후 tree 명령어](https://github.com/user-attachments/assets/f355e5ce-f80e-4798-8798-ccdb7cebd286)
+
+## 참고
+- [리눅스 mkdir 명령어 사용법 ( -m, -p, -v, -Z)](https://leevisual.tistory.com/66)
