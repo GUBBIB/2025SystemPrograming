@@ -5,9 +5,10 @@
 ``sudo apt install tree`` 명령어로 설치가 가능하며 ``tree`` 명령어로 폴더 구조를 볼 수 있다.
 
 ## mkdir 명령어
-``mkdir`` : 디렉토리를 만들 때 사용하는 명령어
-### -m, -p, -v, -Z 옵션
-
+``mkdir`` : 디렉토리를 **만들 때** 사용하는 명령어
+### 옵션 -m, -p, -v, -Z 
+- ``-m(--mode)`` : **퍼미션(권한)** 설정 옵션
+``-p(--parents)`` : **상위 디렉토리** 가 없을 경우 **자동**으로 생성
 
 ![디렉토리 및 파일 생성 후 tree 명령어](https://github.com/user-attachments/assets/f355e5ce-f80e-4798-8798-ccdb7cebd286)
 
