@@ -13,6 +13,7 @@
 
 ``
 \$ mkdir -p -v  f/s1/s2/s3
+
 mkdir: created directory \‘f\’
 mkdir: created directory \‘f/s1\’
 mkdir: created directory \‘f/s1/s2\’
