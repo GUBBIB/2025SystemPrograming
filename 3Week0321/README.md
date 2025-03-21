@@ -25,4 +25,6 @@ sudo apt install --classic code
 wsl 폴더 들어가기 
 
 
+
+hello.c 랑 학번 이름 입력받는.c 올려야 함
 -->
