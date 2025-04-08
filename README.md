@@ -12,6 +12,9 @@
 ## [4주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/4Week0328)
 - [파일 명령어](https://github.com/GUBBIB/2025SystemPrograming/tree/main/4Week0328)
 
+## [5주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/5Week0404)
+- [prompt에 대해서](https://github.com/GUBBIB/2025SystemPrograming/tree/main/5Week0404)
+
 <!-- 
 PC WSL2 Ubuntu 계정 - ubuntu, 1111
 노트북 WSL2 Ubuntu 계정 - ubuntu, 1111
