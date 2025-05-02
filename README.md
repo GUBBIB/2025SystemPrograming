@@ -15,6 +15,14 @@
 ## [5주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/5Week0404)
 - [prompt에 대해서](https://github.com/GUBBIB/2025SystemPrograming/tree/main/5Week0404)
 
+## [6주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/6Week0411)
+
+## [7주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/7Week0418)
+
+## 중간 시험
+
+## [9주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/5Week0404)
+
 <!-- 
 PC WSL2 Ubuntu 계정 - ubuntu, 1111
 노트북 WSL2 Ubuntu 계정 - ubuntu, 1111
