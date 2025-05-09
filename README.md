@@ -27,3 +27,8 @@
 PC WSL2 Ubuntu 계정 - ubuntu, 1111
 노트북 WSL2 Ubuntu 계정 - ubuntu, 1111
 -->
+
+<!--
+시스템프로그래밍05.pdf 안에
+db~~.c 작성하기 기말 시험임
+-->
