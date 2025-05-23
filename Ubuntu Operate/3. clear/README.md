@@ -1,3 +1,5 @@
+## 명령어
+- **clear**: 화면 지우기
 ```c
 #include <stdio.h>
 

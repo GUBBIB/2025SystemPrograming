@@ -1,3 +1,5 @@
+## 명령어
+- **whoami**: 현재 사용자 출력
 ```c
 #include <stdio.h>
 #include <unistd.h>

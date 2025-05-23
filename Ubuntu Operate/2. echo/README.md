@@ -1,3 +1,5 @@
+## 명령어
+- **echo**: 문자열 출력
 ```c
 #include <stdio.h>
 

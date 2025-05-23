@@ -1,3 +1,5 @@
+## 명령어
+- **hostname**: 호스트 이름 출력
 ```c
 #include <stdio.h>
 #include <unistd.h>     // gethostname

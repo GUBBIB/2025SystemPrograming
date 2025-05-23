@@ -1,3 +1,5 @@
+## 명령어
+- **pwd**: 현재 경로를 추력하는 명령어
 ```c
 #include <stdio.h>
 #include <unistd.h>   // getcwd 함수
@@ -16,7 +18,7 @@ int main() {
     return 0;
 }
 ```
-## 설명
+## 구현 설명
 - ``getcwd(char *buf, size_t size)`` 함수를 통해서 현재 위치를 저장할 수 있다.
 - **PATH_MAX**는 ``limits.h``에 정의된 상수이다. **※ 크기는 4096**
 

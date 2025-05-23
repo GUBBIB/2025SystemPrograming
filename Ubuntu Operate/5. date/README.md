@@ -1,3 +1,5 @@
+## 명령어
+- **date**: 현재 시간 출력
 ```c
 #include <stdio.h>
 #include <time.h>
