@@ -18,7 +18,7 @@ int main() {
 ```
 ## 설명
 - ``getcwd(char *buf, size_t size)`` 함수를 통해서 현재 위치를 저장할 수 있다.
-
+- **PATH_MAX**는 ``limits.h``에 정의된 상수이다. **※ 크기는 4096**
 
 ## 컴파일 및 실행화면
 ![Image](https://github.com/user-attachments/assets/fa61f2c7-2b38-476d-b91d-fc9fd3e5c13a)
