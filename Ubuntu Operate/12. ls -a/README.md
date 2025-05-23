@@ -16,9 +16,8 @@ int main() {
 
     while ((entry = readdir(dir)) != NULL) {
         // 현재 디렉토리에서 항목 하나씩 출력
-        if (entry->d_name[0] != '.') {
-           printf("%s\n", entry->d_name);
-    }   }
+        printf("%s\n", entry->d_name);
+    }
 
     closedir(dir);
     return 0;
@@ -30,4 +29,4 @@ int main() {
 
 ## 컴파일 및 실행화면
 
-![Image](https://github.com/user-attachments/assets/4204470f-d3bd-4cb9-9ad8-b0e96287949a)
+![Image](https://github.com/user-attachments/assets/5f2176f8-07ae-4799-bf14-aa121b18ca59)
