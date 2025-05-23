@@ -17,6 +17,6 @@ int main() {
 }
 ```
 
-## 실행화면
+## 컴파일 및 실행화면
 
-![Image](https://github.com/user-attachments/assets/ba9411fb-9903-42f3-95dc-8c74a9b2a083)
+![Image](https://github.com/user-attachments/assets/fa61f2c7-2b38-476d-b91d-fc9fd3e5c13a)
