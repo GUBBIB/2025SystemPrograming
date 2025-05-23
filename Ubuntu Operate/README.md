@@ -1,4 +1,4 @@
-2. chmod, fchmod, dup, touch, utime, chown, mkdir, rmdir, 심볼릭 링크, 하드 링크
+1. chmod, fchmod, dup, touch, utime, chown, mkdir, rmdir, 심볼릭 링크, 하드 링크
 
 
 ### ✅ C 언어로 구현하기 쉬운 Ubuntu 명령어 50선 (난이도순)
