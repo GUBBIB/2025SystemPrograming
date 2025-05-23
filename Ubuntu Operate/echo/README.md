@@ -15,4 +15,6 @@ int main(int argc, char *argv[]) {
 ```
 ## 설명
 
+
 ## 컴파일 및 실행화면
+![Image](https://github.com/user-attachments/assets/615196a4-a22e-459f-ba3b-cc73a21c90ab)
