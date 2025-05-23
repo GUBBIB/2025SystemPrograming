@@ -18,6 +18,7 @@ int main() {
 ```
 ## 설명
 - **HOST_NAME_MAX**: ``limits.h`` 라이브러리에 정의된 상수이며 1을 더하는 이유는 문자열의 끝에 있는 ``널 문자(\\0)`` 때문이다. **※크기는 리눅스에서는 64**
+- **gethostname(char *name, size_t len)**: hostname을 반환하는 함수
 
 ## 컴파일 및 실행화면
 
