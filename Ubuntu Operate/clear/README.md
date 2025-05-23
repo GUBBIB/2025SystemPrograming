@@ -12,11 +12,13 @@ int main() {
 ```
 
 ## 설명
-- ``printf(\"\\033[2J\")``와 ``printf(\"\\033[H\")``를 이용해 직접 **ANSI escape 코드** 를 출력하여 화면을 지우고 커서를 초기 위치로 이동시켰습니다.
+- ``printf("\033[2J")``와 ``printf("\033[H")``를 이용해 직접 **ANSI escape 코드** 를 출력하여 화면을 지우고 커서를 초기 위치로 이동시켰습니다.
 
 ## 컴파일 및 실행화면
 - 실행 전
+
 ![Image](https://github.com/user-attachments/assets/2cd401e1-03fb-4983-9c29-e9fd4364c783)
 
 - 실행 후
+
 ![Image](https://github.com/user-attachments/assets/e3f4da39-3a70-42a8-aeb7-aa658925ac0b)
