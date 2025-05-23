@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 ## 설명
-
+- **명령줄 인자(argc, argv)** 를 활용하여 구현했습니다.
 
 ## 컴파일 및 실행화면
 ![Image](https://github.com/user-attachments/assets/615196a4-a22e-459f-ba3b-cc73a21c90ab)
