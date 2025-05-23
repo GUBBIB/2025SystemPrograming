@@ -70,6 +70,8 @@ int main() {
 - ``dirent.h`` 라이브러리로 현재 디렉토리 열기, **dirent** 구조체 선언, **readdir()** 함수를 통해서 파일/디렉토리 항목 하나씩 읽기 등 구현
 - ``sys/stat.h`` 라이브러리에 정의된 파일 권한 관련 상수들로 파일의 권한을 구분 및 stat 구조체 사용
 
+- ``stat``, ``dirent`` **구조체**들로 필요한 정보들 출력
+
 ## 컴파일 및 실행화면
 
 ![Image](https://github.com/user-attachments/assets/2d941b6c-5a1a-420d-8a58-19c0504a13de)
