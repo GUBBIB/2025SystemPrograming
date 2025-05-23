@@ -16,3 +16,7 @@ int main() {
     return 0;
 }
 ```
+
+## 실행화면
+
+![Image](https://github.com/user-attachments/assets/ba9411fb-9903-42f3-95dc-8c74a9b2a083)
