@@ -18,7 +18,7 @@ int main() {
 - **getuid()**: 현재 사용자의 UID(User ID)를 반환
 - **getpwuid(uid)**: ``getuid``로 얻은 ``uid``를 통해서 사용자 정보를 담은 **구조체(struct)** 를 반환
 
-- **passwd 구조체**:
+- **passwd 구조체**: ``getpwuid``를 통해 얻은 구조체에서 ``pw_name``을 출력
 ```c
 #include <pwd.h>
 
