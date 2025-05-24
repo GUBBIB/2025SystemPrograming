@@ -27,4 +27,4 @@ int main(int argc, char *argv[]) {
 
 ## 컴파일 및 실행화면
 
-![Image](https://github.com/user-attachments/assets/b183c897-4e00-4e43-8d3a-db87833a3d82)
+![Image](https://github.com/user-attachments/assets/d52b9881-f300-4195-a440-1f3b4cbe1a23)
