@@ -34,4 +34,4 @@ int main(int argc, char *argv[]) {
 
 ## 컴파일 및 실행화면
 
-![Image](https://github.com/user-attachments/assets/3bd44a32-10cc-48c4-98e9-995acf8616bc)
+![Image](https://github.com/user-attachments/assets/b0c6d522-ff02-4bbf-83b1-16b8d69db1c2)
