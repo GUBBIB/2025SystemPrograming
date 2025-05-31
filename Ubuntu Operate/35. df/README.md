@@ -9,7 +9,6 @@
 int main() {
     struct statvfs fs;
 
-    // 루트 디렉토리("/")의 파일시스템 정보 얻기
     if (statvfs("/", &fs) != 0) {
         perror("statvfs 실패");
         return 1;
@@ -21,10 +20,10 @@ int main() {
     unsigned long used = total - free;
 
     printf("파일시스템   총용량     사용중     사용가능   마운트지점\n");
-    printf("/dev/root    %.2fG    %.2fG    %.2fG      /\n",
-           total / (1024.0 * 1024 * 1024),
-           used / (1024.0 * 1024 * 1024),
-           available / (1024.0 * 1024 * 1024));
+    printf("/dev/root    %lu     %lu     %lu      /\n",
+           total,
+           used,
+           available);
 
     return 0;
 }
@@ -40,4 +39,4 @@ int main() {
 
 ## 컴파일 및 실행화면
 
-![Image](https://github.com/user-attachments/assets/1efa53c4-1f22-4f99-b7f0-9aab237727f2)
+![Image](https://github.com/user-attachments/assets/667a7e5e-4d4a-4d22-99fe-89927c4dad04)
