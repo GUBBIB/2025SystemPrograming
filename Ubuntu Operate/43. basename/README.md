@@ -1,5 +1,5 @@
 ## 명령어
-- **basename**: 무한히 **ICMP ping** 패킷을 보내는 명령어
+- **basename**: 경로 문자열에서 파일 이름만 추출하는 명령어
 
 ```c
 #include <stdio.h>
