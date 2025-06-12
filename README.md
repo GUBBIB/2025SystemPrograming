@@ -21,7 +21,20 @@
 
 ## 중간 시험
 
-## [9주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/5Week0404)
+## [9주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/9Week0502)
+
+
+## [10주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/10Week0509)
+
+
+## [11주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/11Week0516)
+
+
+## [12주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/12Week0523)
+
+
+## [13주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/13Week0530)
+
 
 <!-- 
 PC WSL2 Ubuntu 계정 - ubuntu, 1111
