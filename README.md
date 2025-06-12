@@ -16,24 +16,31 @@
 - [prompt에 대해서](https://github.com/GUBBIB/2025SystemPrograming/tree/main/5Week0404)
 
 ## [6주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/6Week0411)
+- [쉘에 대해서](https://github.com/GUBBIB/2025SystemPrograming/tree/main/6Week0411)
 
 ## [7주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/7Week0418)
+- [프로세스에 대해서](https://github.com/GUBBIB/2025SystemPrograming/tree/main/7Week0418)
 
 ## 중간 시험
 
 ## [9주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/9Week0502)
+- [유닉스 시스템에 대해서](https://github.com/GUBBIB/2025SystemPrograming/tree/main/9Week0502)
 
 
 ## [10주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/10Week0509)
+- [디렉토리 및 파일 구조](https://github.com/GUBBIB/2025SystemPrograming/tree/main/10Week0509)
 
 
 ## [11주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/11Week0516)
+- [리눅스 파일 시스템 구조](https://github.com/GUBBIB/2025SystemPrograming/tree/main/11Week0516)
 
 
 ## [12주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/12Week0523)
+- [프로세스 제어](https://github.com/GUBBIB/2025SystemPrograming/tree/main/12Week0523)
 
 
 ## [13주차 수업내용](https://github.com/GUBBIB/2025SystemPrograming/tree/main/13Week0530)
+- [조기 종강](https://github.com/GUBBIB/2025SystemPrograming/tree/main/13Week0530)
 
 
 <!-- 
