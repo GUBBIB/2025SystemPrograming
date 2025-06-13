@@ -73,3 +73,101 @@ db~~.c 작성하기 기말 시험임
 Include conf/extra/httpd-vhosts.conf
 httpd.conf 에서 위에 꺼 검색 후 주석(#) 제거
 -->
+
+
+<!--
+
+  CREATE TABLE "MOVIEEXEC" 
+   (	"NAME" VARCHAR2(100) constraint me_name UNIQUE, 
+	"ADDRESS" VARCHAR2(255), 
+	"CERTNO" NUMBER(*,0) constraint me_key Primary Key, 
+	"NETWORTH" NUMBER(*,0),
+    "SPOUSENAME" VARCHAR2(255),
+    "GENDER" CHAR(6),
+
+    CONSTRAINT "SEX_CHK" CHECK (gender in ('male', 'female')),
+    constraint fk_movieExec_movieStar foreign key (spouseName) references movieStar(name)
+   )
+
+
+  CREATE TABLE "MOVIESTAR" 
+   (	"NAME" VARCHAR2(100) constraint st_key primary key, 
+	"ADDRESS" VARCHAR2(255), 
+	"GENDER" CHAR(6), 
+	"BIRTHDATE" DATE,
+    "SPOUSENAME" VARCHAR2(255),
+    
+    CONSTRAINT "SEX_CHK" CHECK (gender in ('male', 'female')),
+    constraint fk_movieStar_movieExec foreign key (spouseName) references movieExec(name)
+   )
+  CREATE TABLE "STUDIO" 
+   (	"NAME" VARCHAR2(100) constraint std_key primary key, 
+	"ADDRESS" VARCHAR2(255), 
+	"PRESNO" NUMBER(*,0),
+    "EMPNO" NUMBER(*,0)
+   )
+
+  CREATE TABLE "MOVIE" 
+   (	"TITLE" VARCHAR2(255), 
+	"YEAR" NUMBER(*,0), 
+	"LENGTH" NUMBER(*,0), 
+	"INCOLOR" CHAR(1), 
+	"PRODUCERNO" NUMBER(*,0),
+	    "DIRECTORNO" NUMBER(*,0),
+	    "SOUNDSTUDIO" VARCHAR2(255),
+    
+    constraint mv_key primary key(title,year),
+    constraint mv_chk CHECK (length > 50 and year > 1900 and year <= 2024),
+    constraint fk_movie_movieExec foreign key (directorNo) references MovieExec(certNo) on delete set null,
+    constraint fk_movie_studio foreign key (SoundStudio) references Studio(name) on delete set null
+   )
+
+  CREATE TABLE "STARSIN" 
+   (	"MOVIETITLE" VARCHAR2(255), 
+	"MOVIEYEAR" NUMBER(*,0), 
+	"STARNAME" VARCHAR2(100),
+    "GURANTEE" NUMBER(*,0),
+    
+    constraint stin_key primary key(movietitle,movieyear, starname),
+    constraint chk_gurantee check (GURANTEE >= 10000),
+    constraint fk_starsIn_movie foreign key (movieTitle, movieYear) references movie(title, year) on delete cascade,
+    constraint fk_starsIn_movieStar foreign key (starName) references movieStar(name) on delete cascade
+   )
+
+  CREATE TABLE "CARTOON" 
+   (	
+    "TITLE" VARCHAR2(255), 
+	"YEAR" NUMBER(*,0), 
+	"VOICE" VARCHAR2(255),
+    
+    constraint pk_cartoon primary key (title, year, voice),
+    constraint fk_cartoon_movie foreign key (title, year) references movie(title, year) on delete cascade, 
+    constraint fk_cartoon_movieStar foreign key (voice) references movieStar(name) on delete cascade
+   )
+
+
+
+  ALTER TABLE "STARSIN" ADD constraint stin_fk1 FOREIGN KEY ("MOVIETITLE", "MOVIEYEAR")
+	  REFERENCES "MOVIE" ("TITLE", "YEAR") -- ON DELETE CASCADE ENABLE
+ /
+  ALTER TABLE "STARSIN" ADD constraint stin_fk2 FOREIGN KEY ("STARNAME")
+	  REFERENCES "MOVIESTAR" ("NAME") -- ON DELETE CASCADE ENABLE
+/
+create or replace view Prod_Studio (producer, p_title, studio, s_title) as
+select e.name, pm.title, s.name, sm.title
+from ((movieexec e left outer join movie pm on ( certno = pm.producerno )) left outer join 
+    studio s on (certno = presno) ) left outer join movie sm on (s.name = sm.studioname);
+commit;
+quit;
+
+1. 
+SELECT me.name
+FROM Movie m
+JOIN MovieExec me certNo = diretorNo
+WHERE LOWER(title) = 'star wars'
+
+2.
+SELECT *
+FROM 
+
+-->
