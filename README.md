@@ -167,7 +167,27 @@ JOIN MovieExec me certNo = diretorNo
 WHERE LOWER(title) = 'star wars'
 
 2.
-SELECT *
-FROM 
+SELECT m.title, m.year
+FROM Movie m
+JOIN Studio s ON m.studioName = s.name
+join MovieExec prod = me.
+
+WHERE m.director IN (
+    SELECT MAX(me.netWorth)
+    FROM Movie m
+    JOIN MovieExec me m.directorNo = me.certNo
+) AND 
+
+s.presNo IN (
+    SELECT MIN(me.netWorth)
+    FROM Studio s 
+    JOIN MovieExec me ON s.presNo = me.certNo
+) AND 
+
+m.producerNo IN (
+    SELECT MIN(me.netWorth)
+    FROM Movie m 
+    JOIN MovieExec me ON m.producerNo = me.certNo
+)
 
 -->
